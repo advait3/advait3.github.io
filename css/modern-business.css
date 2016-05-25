@@ -1,0 +1,189 @@
+/*!
+ * Start Bootstrap - Modern Business HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+/* Home Page Carousel */
+
+.carousel {
+    height: 400px;
+    width:100%;
+}
+
+.carousel .item,
+.carousel .item.active,
+.carousel .carousel-inner {
+    height: 100%;
+}
+
+.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+    font-style: italic;
+}
+
+/* Footer Styles */
+
+footer {
+    margin: 50px 0 0;
+}
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
+
+
+.margin-right {
+    margin-right: 25px;
+}
+.logo-height{
+    height: 69px;
+    width: 160px;
+    margin-right: 25px;
+}
+.uncc-logo-height{
+    height: 60px !important;
+}
+.navbar {
+    min-height: 70px;
+}
+.navbar-brand {
+    padding: 0;
+}
+.nav>li{
+    margin-top: 20px!important;
+}
+
+.topbuffer{
+    margin-top: 50px;
+}
+
+.trianglebullets{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.trianglebullets li:before {
+    content: "\2023 \0020";
+
+}
+.tab {
+    display:none;
+}
+
+.tab.active {
+    display:block;
+}
+.fore-color-yellow{
+    color:#ffcc00;
+}
+.fore-color-white{
+    color:white;
+}
+.text-size-big{
+    font-size: 80px;
+    text-align: right;
+}
+.text-size-medium{
+    font-size: 26px;
+}
+.text-size-small{
+    font-size: 15px;
+}
+.bg-handshake{
+    height: 200px;
+}
+.margin-top{
+    margin-top: 14px;
+}
+
+.verticalborder{
+    border-left: medium solid #00A8E2;
+}
+
+.borderrightbuffers{
+    margin-left: 10px;
+}
+.topmargin{
+    margin-top: 30px;
+}
+
+.float-left{
+    float: left;
+    float: left;
+}
+
+.text-color-blue{
+    color: #00a8e2;
+}
+
+.padding10{
+    padding-left: 10px;
+    margin-left: 0;
+}
+
+.contactfooter{
+    margin: 200px 0 0;
+}
